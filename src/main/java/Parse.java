@@ -6,10 +6,12 @@ public class Parse {
 
     private final static Logger LOGGER =
             LoggerFactory.getLogger(Parse.class);
+
     //global variable to track character position value during recursion
     int position=0;
-    HashMap<String,Integer> map = new HashMap();
 
+    //hashmap to map the let variable to value
+    HashMap<String,Integer> map = new HashMap();
         public int parse(String s) throws Exception{
             String newString = s.replace(" ", "");
             char[] arr = newString.toCharArray();
@@ -17,6 +19,7 @@ public class Parse {
 
         }
 
+        //checks whether next step is an expression or just return integer
         public boolean isInteger (char[] arr, int position) throws Exception{
             String s = Character.toString(arr[position]);
             try{
@@ -27,6 +30,7 @@ public class Parse {
             return true;
         }
 
+        //builds string from valid characters during iteration
         public String parseCharacters(char[] arr){
             StringBuilder s = new StringBuilder();
             while(Character.isLetter(arr[position])){
@@ -36,6 +40,7 @@ public class Parse {
             return s.toString();
         }
 
+        //builds integer from valid int characters during iteration
         public int parseInteger(char[] arr){
             StringBuilder s = new StringBuilder();
             while(arr[position]>='0' && arr[position]<='9' ){
@@ -46,8 +51,7 @@ public class Parse {
             return Integer.parseInt(s.toString());
         }
 
-//resolves one expression
-
+        //resolves one expression and returns resulting integer or simply returns integer if no expression
         public int parseExpression(char[] arr) throws Exception {
             if (arr[position] == 'a' && arr[position + 1] == 'd' && arr[position + 2] == 'd' && arr[position + 3] == '(') {
                 position = position + 4;
