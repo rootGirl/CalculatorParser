@@ -28,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Parse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="156" column="79" selection-start-line="156" selection-start-column="79" selection-end-line="156" selection-end-column="79" />
+            <state relative-caret-position="216">
+              <caret line="156" column="45" selection-start-line="156" selection-start-column="45" selection-end-line="156" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,8 +79,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-83" />
-    <option name="y" value="216" />
+    <option name="x" value="126" />
+    <option name="y" value="428" />
     <option name="width" value="1195" />
     <option name="height" value="732" />
   </component>
@@ -130,7 +130,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546370223525" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546384154942" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="project.structure.last.edited" value="Project" />
@@ -217,18 +217,22 @@
       <updated>1546214945955</updated>
       <workItem from="1546214948349" duration="3267000" />
       <workItem from="1546218607089" duration="2489000" />
-      <workItem from="1546294673008" duration="3934000" />
+      <workItem from="1546294673008" duration="4470000" />
+      <workItem from="1546372245107" duration="46000" />
+      <workItem from="1546374802852" duration="25000" />
+      <workItem from="1546377249135" duration="450000" />
+      <workItem from="1546383896889" duration="261000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9690000" />
+    <option name="totallyTimeSpent" value="11008000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-99" y="536" width="1195" height="732" extended-state="0" />
+    <frame x="126" y="428" width="1195" height="732" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18560277" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19774501" />
       <window_info id="Structure" order="1" weight="0.10436893" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -237,7 +241,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.80236685" visible="true" weight="0.3953125" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.80236685" weight="0.3953125" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.85841423" weight="0.33075222" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -278,8 +282,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Parse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="156" column="79" selection-start-line="156" selection-start-column="79" selection-end-line="156" selection-end-column="79" />
+        <state relative-caret-position="216">
+          <caret line="156" column="45" selection-start-line="156" selection-start-column="45" selection-end-line="156" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
