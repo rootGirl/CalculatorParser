@@ -155,6 +155,9 @@ public class Parse {
             Parse par = new Parse();
             try {
                 String aCalculatableString= "let(a, let(b, 10, add(b, b)), let(b, 20 , add(a, b)))";
+                String trimmedInput= aCalculatableString.trim();
+                if (trimmedInput.length()<aCalculatableString.length())
+                    LOGGER.warn("Ignoring leading and trailing spaces. Please remove them in the future.");
                 LOGGER.info("Calculating: " + aCalculatableString);
                 LOGGER.info("Answer is: " + par.parse(aCalculatableString));
             } catch (Exception e) {
