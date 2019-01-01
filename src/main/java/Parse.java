@@ -6,7 +6,7 @@ public class Parse {
 
     private final static Logger LOGGER =
             LoggerFactory.getLogger(Parse.class);
-
+    //global variable to track character position value during recursion
     int position=0;
     HashMap<String,Integer> map = new HashMap();
 
