@@ -154,12 +154,12 @@ public class Parse {
             LOGGER.info("==========Calculator Parser==========");
             Parse par = new Parse();
             try {
-                String aCalculatableString= "let(a, let(b, 10, add(b, b)), let(b, 20, add(a, b)))";
+                String aCalculatableString= "let(a, let(b, 10, add(b, b)), let(b, 20 , add(a, b)))";
                 LOGGER.info("Calculating: " + aCalculatableString);
                 LOGGER.info("Answer is: " + par.parse(aCalculatableString));
             } catch (Exception e) {
                 LOGGER.error(e.getMessage() + " at position " + par.position);
-
+                LOGGER.debug(e.getMessage() + " at position " + par.position);
             }
 
 
