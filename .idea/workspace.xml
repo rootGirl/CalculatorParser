@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6260dcc6-511c-448b-a271-339bbe931b5b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Parse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Parse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Parse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Parse.class" afterDir="false" />
-    </list>
+    <list default="true" id="6260dcc6-511c-448b-a271-339bbe931b5b" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Parse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="156" column="79" selection-start-line="156" selection-start-column="79" selection-end-line="156" selection-end-column="79" />
+            <state relative-caret-position="306">
+              <caret line="158" column="46" selection-start-line="157" selection-start-column="13" selection-end-line="157" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,8 +75,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-83" />
-    <option name="y" value="216" />
+    <option name="x" value="-594" />
+    <option name="y" value="429" />
     <option name="width" value="1195" />
     <option name="height" value="732" />
   </component>
@@ -90,7 +86,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -124,6 +119,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -222,13 +218,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9690000" />
+    <option name="totallyTimeSpent" value="9694000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-99" y="536" width="1195" height="732" extended-state="0" />
+    <frame x="180" y="561" width="1195" height="732" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18560277" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20121422" />
       <window_info id="Structure" order="1" weight="0.10436893" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -278,8 +274,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Parse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="156" column="79" selection-start-line="156" selection-start-column="79" selection-end-line="156" selection-end-column="79" />
+        <state relative-caret-position="306">
+          <caret line="158" column="46" selection-start-line="157" selection-start-column="13" selection-end-line="157" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
