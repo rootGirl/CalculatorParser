@@ -151,10 +151,16 @@ public class Parse {
         }
 
     public static void main(String[] args) {
+        String test1 = "add(1, 2)"; //output 3
+        String test2 = "add(1, mult(2, 3))"; //output 7
+        String test3 = "mult(add(2, 2), div(9, 3))"; //output 12
+        String test4 = "let(a, 5, add(a, a))"; //output 10
+        String test5 = "let(a, 5, let(b, mult(a, 10), add(b, a)))"; //output 55
+        String test6 = "let(a, let(b, 10, add(b, b)), let(b, 20, add(a, b)))"; //output 40
             LOGGER.info("==========Calculator Parser==========");
             Parse par = new Parse();
             try {
-                String aCalculatableString= "let(a, let(b, 10, add(b, b)), let(b, 20 , add(a, b)))";
+                String aCalculatableString= test6;
                 String trimmedInput= aCalculatableString.trim();
                 if (trimmedInput.length()<aCalculatableString.length())
                     LOGGER.warn("Ignoring leading and trailing spaces. Please remove them in the future.");
